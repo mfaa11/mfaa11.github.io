@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <title>Crazy Tuna | Products</title>
-
+    <!-- add icon link -->
+    <link rel="icon" href="./images/product1.jpeg" type="image" sizes="16x16" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="description" content="" />
@@ -24,28 +25,33 @@
   </head>
 
   <body>
-         <!-- Load Facebook SDK for JavaScript--> 
-          <div id="fb-root"></div>
-          <script>
-            window.fbAsyncInit = function () {
-              FB.init({
-                xfbml: true,
-                version: 'v7.0'
-              });
-            };
+    <!-- Load Facebook SDK for JavaScript-->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v7.0",
+        });
+      };
 
-            (function (d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
-
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
 
     <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="1652527725000336">
-    </div>
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="1652527725000336"
+    ></div>
     <!-- end of messenger plugin -->
     <header class="hero">
       <div class="banner">
@@ -546,9 +552,7 @@
                 <br />Copyright &copy; 2020 <br />Devamers
 
                 <br /><br />
-                <a rel="nofollow" href="herehrehre" target="_parent"
-                  >
-                </a>
+                <a rel="nofollow" href="herehrehre" target="_parent"> </a>
               </p>
             </div>
           </div>
