@@ -113,9 +113,9 @@ body {
   min-height: 12rem;
   transition: var(--mainTransition);
 }
-.img-container:hover .product-img {
+/* .img-container:hover .product-img {
   opacity: 0.5;
-}
+} */
 
 .product h3 {
   text-transform: capitalize;
