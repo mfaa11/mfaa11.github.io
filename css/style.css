@@ -143,6 +143,7 @@ section {
   font-weight: normal;
   padding: 10px 25px;
   transition: 0.5s 0.2s;
+  animation-duration: 30s;
 }
 
 /*---------------------------------------
@@ -1656,4 +1657,3 @@ img.mfp-img {
   height: 100%;
   width: 100%;
 }
-
