@@ -28,21 +28,27 @@
       window.fbAsyncInit = function () {
         FB.init({
           xfbml: true,
-          version: 'v7.0'
+          version: "v7.0",
         });
       };
 
       (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-    
+      })(document, "script", "facebook-jssdk");
+    </script>
+
     <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="345080009473202">
-    </div>
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="345080009473202"
+    ></div>
     <!-- end of messenger plugin -->
     <!-- PRE LOADER -->
     <section class="preloader">
@@ -81,7 +87,8 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#"> <i class="fa fa-phone"></i> 01211713881</a>
+              <a href="tel:+201211713881">
+              <i class="fa fa-phone"></i> +201211713881</a>
             </li>
             <a href="#footer" class="section-btn">Fresh Catch Updates</a>
           </ul>
